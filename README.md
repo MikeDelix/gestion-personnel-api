@@ -1,9 +1,9 @@
-# GestionPersonnelSpa - Backend
+# GestionPersonnelSpa - Frontend
 
 Bonjour à tous,
 
-Je suis Chancelin, Lead Technique du projet. Ce dépôt est exclusivement réservé au développement du **backend** du projet. Merci de veiller à ce que toutes vos contributions concernent uniquement le backend.  
-Pour les contributions liées au **frontend**, veuillez utiliser le dépôt correspondant.
+Je suis Chancelin, Lead Technique du projet. Ce dépôt est exclusivement réservé au développement du **Frontend** du projet. Merci de veiller à ce que toutes vos contributions concernent uniquement le Frontend.  
+Pour les contributions liées au **Backend**, veuillez utiliser le dépôt correspondant.
 
 Merci pour votre collaboration et votre engagement.
 
