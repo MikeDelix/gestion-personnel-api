@@ -1,7 +1,3 @@
-Voici une version corrigée et traduite en français du fichier README avec des instructions d'installation pour vos collaborateurs :
-
----
-
 # GestionPersonnelSpa - Backend
 
 Bonjour à tous,
@@ -75,5 +71,3 @@ ng help
 ou consultez la page [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli).
 
 ---
-
-N'hésitez pas à partager ce fichier avec vos collaborateurs afin de leur faciliter l'installation et l'utilisation du dépôt.
