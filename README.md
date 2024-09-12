@@ -1,27 +1,79 @@
-# GestionPersonnelSpa
+Voici une version corrigée et traduite en français du fichier README avec des instructions d'installation pour vos collaborateurs :
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
+---
 
-## Development server
+# GestionPersonnelSpa - Backend
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Bonjour à tous,
 
-## Code scaffolding
+Je suis Chancelin, Lead Technique du projet. Ce dépôt est exclusivement réservé au développement du **backend** du projet. Merci de veiller à ce que toutes vos contributions concernent uniquement le backend.  
+Pour les contributions liées au **frontend**, veuillez utiliser le dépôt correspondant.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Merci pour votre collaboration et votre engagement.
 
-## Build
+## Installation et Lancement du Serveur de Développement
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clonez le dépôt en utilisant la commande :
+   ```bash
+   git clone <lien_du_dépôt>
+   ```
 
-## Running unit tests
+2. Assurez-vous d'avoir [Node.js](https://nodejs.org) et [Angular CLI](https://angular.io/cli) installés sur votre machine.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+3. Installez les dépendances nécessaires :
+   ```bash
+   npm install
+   ```
 
-## Running end-to-end tests
+4. Lancez le serveur de développement :
+   ```bash
+   ng serve
+   ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+5. Accédez à l'application dans votre navigateur à l'adresse : `http://localhost:4200/`. L'application se rechargera automatiquement en cas de modification des fichiers source.
 
-## Further help
+## Génération de Composants
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Utilisez la commande suivante pour générer un nouveau composant Angular :
+```bash
+ng generate component nom-du-composant
+```
+Vous pouvez aussi utiliser :
+```bash
+ng generate directive|pipe|service|class|guard|interface|enum|module
+```
+
+## Compilation du Projet
+
+Pour compiler le projet, exécutez :
+```bash
+ng build
+```
+Les fichiers compilés seront stockés dans le répertoire `dist/`.
+
+## Exécution des Tests Unitaires
+
+Pour exécuter les tests unitaires avec [Karma](https://karma-runner.github.io), utilisez :
+```bash
+ng test
+```
+
+## Exécution des Tests End-to-End
+
+Pour exécuter les tests end-to-end, utilisez :
+```bash
+ng e2e
+```
+**Remarque** : Vous devez d'abord ajouter un package qui implémente les fonctionnalités de test end-to-end si cela n'est pas déjà fait.
+
+## Aide Supplémentaire
+
+Pour plus d'informations sur les commandes Angular CLI, tapez :
+```bash
+ng help
+```
+ou consultez la page [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli).
+
+---
+
+N'hésitez pas à partager ce fichier avec vos collaborateurs afin de leur faciliter l'installation et l'utilisation du dépôt.
