@@ -1,0 +1,287 @@
+{
+	"info": {
+		"_postman_id": "6efd8722-06db-4275-82d8-41eb59d0572b",
+		"name": "Getsion-Personnel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33731094"
+	},
+	"item": [
+		{
+			"name": "Sécurité",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Login",
+								"value": "",
+								"type": "text"
+							},
+							{
+								"key": "Password",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"login\" : \"TESST\",\r\n    \"password\": \"Pass\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/api/login?nom=MAKOSSO&prenom=Chancelin&Adresse=Liberté6",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"api",
+								"login"
+							],
+							"query": [
+								{
+									"key": "nom",
+									"value": "MAKOSSO"
+								},
+								{
+									"key": "prenom",
+									"value": "Chancelin"
+								},
+								{
+									"key": "Adresse",
+									"value": "Liberté6"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Direction",
+			"item": [
+				{
+					"name": "Afficher les directions",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Créer une Direction",
+					"request": {
+						"method": "POST",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Modifier une Direction",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Supprimer une direction",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Entreprise",
+			"item": [
+				{
+					"name": "Lister les Entreprises",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/entreprises/lister",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"entreprises",
+								"lister"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Creer une Entreprise",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nomEntreprise\": \"STARTEIPG\",\r\n  \"adresseEntreprise\": \"IPG\",\r\n  \"emailEntreprise\": \"IPG.entreprise@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/entreprises/creer",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"entreprises",
+								"creer"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Modifier une Entreprise",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"nomEntreprise\": \"HUDU\",\r\n  \"adresseEntreprise\": \"Lidzjdzj\",\r\n  \"emailEntreprise\": \"Chance.Startup@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/entreprises/modifier/6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"entreprises",
+								"modifier",
+								"6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Supprimer une Entreprise",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/entreprises/supprimer/6\n\n",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"entreprises",
+								"supprimer",
+								"6\n\n"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Compte_Utilisateur",
+			"item": [
+				{
+					"name": "Créer un utilisateur",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "créer un utilisateur",
+					"request": {
+						"method": "POST",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Modifier un utilisateur",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Supprimer un utilisateur",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Employe",
+			"item": [
+				{
+					"name": "Afficher les employés",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Créer un Employé",
+					"request": {
+						"method": "POST",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Modifier un employé",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "Supprimer un Utilisateur",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
